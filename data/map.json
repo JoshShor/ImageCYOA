@@ -1,0 +1,1895 @@
+{
+        "start_state": "0,0,N",
+
+        "states": {
+
+        "-2,2,N": {
+        "bk_img": "imgs/-22N.png",
+        "next_state": [
+            {
+                "state_name": "-2,2,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "-2,2,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "-2,2,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "-2,2,E": {
+        "bk_img": "imgs/-22E.png",
+        "next_state": [
+            {
+                "state_name": "-2,2,W",
+                "key_input": 40
+            },
+            {
+                "state_name": "-2,2,S",
+                "key_input": 39
+            },
+            {
+                "state_name": "-2,2,N",
+                "key_input": 37
+            },
+            {
+                "state_name": "-1,2,E",
+                "key_input": 38
+            }
+        ]
+    },
+        "-2,2,S": {
+        "bk_img": "imgs/-22S.png",
+        "next_state": [
+            {
+                "state_name": "-2,2,W",
+                "key_input": 39
+            },
+            {
+                "state_name": "-2,2,N",
+                "key_input": 40
+            },
+            {
+                "state_name": "-2,2,E",
+                "key_input": 37
+            }
+        ]
+    },
+        "-2,2,W": {
+        "bk_img": "imgs/-22W.png",
+        "next_state": [
+            {
+                "state_name": "-2,2,N",
+                "key_input": 39
+            },
+            {
+                "state_name": "-2,2,E",
+                "key_input": 40
+            },
+            {
+                "state_name": "-2,2,S",
+                "key_input": 37
+            }
+        ]
+    },
+        "-1,2,N": {
+        "bk_img": "imgs/-12N.png",
+        "next_state": [
+            {
+                "state_name": "-1,2,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "-1,2,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "-1,2,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "-1,2,E": {
+        "bk_img": "imgs/-12E.png",
+        "next_state": [
+            {
+                "state_name": "-1,2,S",
+                "key_input": 39
+            },
+            {
+                "state_name": "-1,2,W",
+                "key_input": 40
+            },
+            {
+                "state_name": "-1,2,N",
+                "key_input": 37
+            },
+            {
+                "state_name": "-2,2,E",
+                "key_input": 38
+            }
+        ]
+    },
+        "-1,2,S": {
+        "bk_img": "imgs/-12S.png",
+        "next_state": [
+            {
+                "state_name": "-1,2,W",
+                "key_input": 39
+            },
+            {
+                "state_name": "-1,2,N",
+                "key_input": 40
+            },
+            {
+                "state_name": "-1,2,E",
+                "key_input": 37
+            }
+        ]
+    },
+        "-1,2,W": {
+        "bk_img": "imgs/-12W.png",
+        "next_state": [
+            {
+                "state_name": "-1,2,N",
+                "key_input": 39
+            },
+            {
+                "state_name": "-1,2,E",
+                "key_input": 40
+            },
+            {
+                "state_name": "-1,2,S",
+                "key_input": 37
+            },
+            {
+                "state_name": "0,2,W",
+                "key_input": 38
+            }
+        ]
+    },
+        "0,2,N": {
+        "bk_img": "imgs/02N.png",
+        "next_state": [
+            {
+                "state_name": "0,2,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "0,2,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "0,2,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "0,2,E": {
+        "bk_img": "imgs/02E.png",
+        "next_state": [
+            {
+                "state_name": "0,2,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "0,2,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "0,2,W",
+                "key_input": 37
+            },
+            {
+                "state_name": "-1,2,E",
+                "key_input": 38
+            }
+        ]
+    },
+        "0,2,S": {
+        "bk_img": "imgs/02S.png",
+        "next_state": [
+            {
+                "state_name": "0,2,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "0,1,N",
+                "key_input": 40
+            },
+            {
+                "state_name": "0,2,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "0,2,W": {
+        "bk_img": "imgs/02W.png",
+        "next_state": [
+            {
+                "state_name": "0,2,N",
+                "key_input": 39
+            },
+            {
+                "state_name": "0,2,E",
+                "key_input": 40
+            },
+            {
+                "state_name": "0,2,S",
+                "key_input": 37
+            },
+            {
+                "state_name": "1,2,W",
+                "key_input": 38
+            }
+        ]
+    },
+        "1,2,N": {
+        "bk_img": "imgs/12N.png",
+        "next_state": [
+            {
+                "state_name": "1,2,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "1,2,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "1,2,E": {
+        "bk_img": "imgs/12E.png",
+        "next_state": [
+            {
+                "state_name": "1,2,S",
+                "key_input": 39
+            },
+            {
+                "state_name": "1,2,W",
+                "key_input": 40
+            },
+            {
+                "state_name": "1,2,N",
+                "key_input": 37
+            },
+            {
+                "state_name": "2,2,E",
+                "key_input": 38
+            }
+        ]
+    },
+        "1,2,S": {
+        "bk_img": "imgs/12S.png",
+        "next_state": [
+            {
+                "state_name": "1,2,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "1,2,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "1,2,W": {
+        "bk_img": "imgs/12W.png",
+        "next_state": [
+            {
+                "state_name": "1,2,N",
+                "key_input": 39
+            },
+            {
+                "state_name": "1,2,E",
+                "key_input": 40
+            },
+            {
+                "state_name": "0,2,W",
+                "key_input": 38
+            },
+            {
+                "state_name": "1,2,S",
+                "key_input": 37
+            }
+        ]
+    },
+        "2,2,N": {
+        "bk_img": "imgs/22N.png",
+        "next_state": [
+            {
+                "state_name": "2,2,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "2,2,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "2,2,E": {
+        "bk_img": "imgs/22E.png",
+        "next_state": [
+            {
+                "state_name": "2,2,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "2,2,W",
+                "key_input": 37
+            },
+            {
+                "state_name": "END1",
+                "key_input": 38
+            }
+        ]
+    },
+        "2,2,S": {
+        "bk_img": "imgs/22S.png",
+        "next_state": [
+            {
+                "state_name": "2,2,N",
+                "key_input": 40
+            },
+            {
+                "state_name": "2,2,E",
+                "key_input": 37
+            },
+            {
+                "state_name": "2,2,W",
+                "key_input": 39
+            }
+        ]
+    },
+        "2,2,W": {
+        "bk_img": "imgs/22W.png",
+        "next_state": [
+            {
+                "state_name": "2,2,E",
+                "key_input": 40
+            },
+            {
+                "state_name": "2,2,W",
+                "key_input": 37
+            },
+            {
+                "state_name": "1,2,W",
+                "key_input": 38
+            },
+            {
+                "state_name": "2,2,N",
+                "key_input": 39
+            }
+        ]
+    },
+        "-2,1,N": {
+        "bk_img": "imgs/-21N.png",
+        "next_state": [
+            {
+                "state_name": "-2,1,E",
+                "key_input": 37
+            },
+            {
+                "state_name": "-2,1,W",
+                "key_input": 39
+            },
+            {
+                "state_name": "-2,1,S",
+                "key_input": 40
+            }
+        ]
+    },
+        "-2,1,E": {
+        "bk_img": "imgs/-21E.png",
+        "next_state": [
+            {
+                "state_name": "-2,1,N",
+                "key_input": 37
+            },
+            {
+                "state_name": "-2,1,S",
+                "key_input": 39
+            },
+            {
+                "state_name": "-2,1,W",
+                "key_input": 40
+            },
+            {
+                "state_name": "-1,1,E",
+                "key_input": 38
+            }
+        ]
+    },
+        "-2,1,S": {
+        "bk_img": "imgs/-21S.png",
+        "next_state": [
+            {
+                "state_name": "-2,1,E",
+                "key_input": 37
+            },
+            {
+                "state_name": "-2,1,W",
+                "key_input": 39
+            },
+            {
+                "state_name": "-2,1,N",
+                "key_input": 40
+            },
+            {
+                "state_name": "-2,0,S",
+                "key_input": 38
+            }
+        ]
+    },
+        "-2,1,W": {
+        "bk_img": "imgs/-21W.png",
+        "next_state": [
+            {
+                "state_name": "-2,1,E",
+                "key_input": 37
+            },
+            {
+                "state_name": "-2,1,W",
+                "key_input": 39
+            },
+            {
+                "state_name": "-2,1,N",
+                "key_input": 40
+            },
+            {
+                "state_name": "-2,1,S",
+                "key_input": 38
+            }
+        ]
+    },
+        "-1,1,N": {
+        "bk_img": "imgs/-11N.png",
+        "next_state": [
+            {
+                "state_name": "-1,2,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "0,1,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "-1,0,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "-2,1,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "-1,1,E": {
+        "bk_img": "imgs/-11E.png",
+        "next_state": [
+            {
+                "state_name": "-1,2,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "0,1,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "-1,0,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "-2,1,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "-1,1,S": {
+        "bk_img": "imgs/-11S.png",
+        "next_state": [
+            {
+                "state_name": "-1,2,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "0,1,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "-1,0,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "-2,1,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "-1,1,W": {
+        "bk_img": "imgs/-11W.png",
+        "next_state": [
+            {
+                "state_name": "-1,2,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "0,1,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "-1,0,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "-2,1,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "0,1,N": {
+        "bk_img": "imgs/01N.png",
+        "next_state": [
+            {
+                "state_name": "0,2,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "1,1,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "0,0,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "-1,1,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "0,1,E": {
+        "bk_img": "imgs/01E.png",
+        "next_state": [
+            {
+                "state_name": "0,2,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "1,1,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "0,0,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "-1,1,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "0,1,S": {
+        "bk_img": "imgs/01S.png",
+        "next_state": [
+            {
+                "state_name": "0,2,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "1,1,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "0,0,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "-1,1,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "0,1,W": {
+        "bk_img": "imgs/01W.png",
+        "next_state": [
+            {
+                "state_name": "0,2,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "1,1,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "0,0,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "-1,1,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "1,1,N": {
+        "bk_img": "imgs/11N.png",
+        "next_state": [
+            {
+                "state_name": "1,2,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "2,1,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "1,0,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "0,1,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "1,1,E": {
+        "bk_img": "imgs/11E.png",
+        "next_state": [
+            {
+                "state_name": "1,2,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "2,1,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "1,0,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "0,1,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "1,1,S": {
+        "bk_img": "imgs/11S.png",
+        "next_state": [
+            {
+                "state_name": "1,2,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "2,1,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "1,0,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "0,1,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "1,1,W": {
+        "bk_img": "imgs/11W.png",
+        "next_state": [
+            {
+                "state_name": "1,2,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "2,1,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "1,0,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "0,1,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "2,1,N": {
+        "bk_img": "imgs/21N.png",
+        "next_state": [
+            {
+                "state_name": "2,2,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "2,0,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "1,1,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "2,1,E": {
+        "bk_img": "imgs/21E.png",
+        "next_state": [
+            {
+                "state_name": "2,2,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "2,0,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "1,1,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "2,1,S": {
+        "bk_img": "imgs/21S.png",
+        "next_state": [
+            {
+                "state_name": "2,2,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "2,0,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "1,1,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "2,1,W": {
+        "bk_img": "imgs/21W.png",
+        "next_state": [
+            {
+                "state_name": "2,2,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "2,0,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "1,1,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "-2,0,N": {
+        "bk_img": "imgs/-20N.png",
+        "next_state": [
+            {
+                "state_name": "-2,1,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "-1,0,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "-2,-1,S",
+                "key_input": 40
+            }
+        ]
+    },
+        "-2,0,E": {
+        "bk_img": "imgs/-20E.png",
+        "next_state": [
+            {
+                "state_name": "-2,1,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "-1,0,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "-2,-1,S",
+                "key_input": 40
+            }
+        ]
+    },
+        "-2,0,S": {
+        "bk_img": "imgs/-20S.png",
+        "next_state": [
+            {
+                "state_name": "-2,1,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "-1,0,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "-2,-1,S",
+                "key_input": 40
+            }
+        ]
+    },
+        "-2,0,W": {
+        "bk_img": "imgs/-20W.png",
+        "next_state": [
+            {
+                "state_name": "-2,1,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "-1,0,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "-2,-1,S",
+                "key_input": 40
+            }
+        ]
+    },
+        "-1,0,N": {
+        "bk_img": "imgs/-10N.png",
+        "next_state": [
+            {
+                "state_name": "-1,1,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "-1,0,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "-1,0,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "-1,0,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "-1,0,E": {
+        "bk_img": "imgs/-10E.png",
+        "next_state": [
+            {
+                "state_name": "-1,0,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "-2,0,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "-1,0,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "-1,0,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "-1,0,S": {
+        "bk_img": "imgs/-10S.png",
+        "next_state": [
+            {
+                "state_name": "-1,0,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "-1,0,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "-1,-1,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "-1,0,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "-1,0,W": {
+        "bk_img": "imgs/-10W.png",
+        "next_state": [
+            {
+                "state_name": "-1,0,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "-1,0,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "-1,0,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "-2,0,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "0,0,N": {
+        "bk_img": "imgs/00N.png",
+        "next_state": [
+            {
+                "state_name": "0,1,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "1,0,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "0,-1,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "-1,0,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "0,0,E": {
+        "bk_img": "imgs/00E.png",
+        "next_state": [
+            {
+                "state_name": "0,0,N",
+                "key_input": 37
+            },
+            {
+                "state_name": "1,0,E",
+                "key_input": 38
+            },
+            {
+                "state_name": "0,0,S",
+                "key_input": 39
+            },
+            {
+                "state_name": "0,0,W",
+                "key_input": 40
+            }
+        ]
+    },
+        "0,0,S": {
+        "bk_img": "imgs/00S.png",
+        "next_state": [
+            {
+                "state_name": "0,0,N",
+                "key_input": 40
+            },
+            {
+                "state_name": "0,0,E",
+                "key_input": 37
+            },
+            {
+                "state_name": "0,-1,S",
+                "key_input": 438
+            },
+            {
+                "state_name": "0,0,W",
+                "key_input": 39
+            }
+        ]
+    },
+        "0,0,W": {
+        "bk_img": "imgs/00W.png",
+        "next_state": [
+            {
+                "state_name": "0,0,N",
+                "key_input": 37
+            },
+            {
+                "state_name": "0,0,E",
+                "key_input": 40
+            },
+            {
+                "state_name": "0,0,S",
+                "key_input": 39
+            },
+            {
+                "state_name": "-1,0,W",
+                "key_input": 38
+            }
+        ]
+    },
+        "1,0,N": {
+        "bk_img": "imgs/10N.png",
+        "next_state": [
+            {
+                "state_name": "1,1,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "1,0,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "1,0,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "1,0,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "1,0,E": {
+        "bk_img": "imgs/10E.png",
+        "next_state": [
+            {
+                "state_name": "1,0,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "0,0,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "1,0,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "1,0,W",
+                "key_input": 37
+            }
+        ]
+    },
+    "1,0,S": {
+        "bk_img": "imgs/10S.png",
+        "next_state": [
+            {
+                "state_name": "1,0,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "1,0,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "1,-1,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "1,0,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "1,0,W": {
+        "bk_img": "imgs/10W.png",
+        "next_state": [
+            {
+                "state_name": "1,0,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "1,0,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "1,0,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "2,0,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "2,0,N": {
+        "bk_img": "imgs/20N.png",
+        "next_state": [
+            {
+                "state_name": "2,1,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "2,0,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "2,0,W",
+                "key_input": 37
+            },
+            {
+                "state_name": "2,0,W",
+                "key_input": 39
+            }
+        ]
+    },
+        "2,0,E": {
+        "bk_img": "imgs/20E.png",
+        "next_state": [
+            {
+                "state_name": "2,1,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "2,-1,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "1,0,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "2,0,S": {
+        "bk_img": "imgs/20S.png",
+        "next_state": [
+            {
+                "state_name": "2,0,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "2,-1,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "2,0,W",
+                "key_input": 37
+            },
+            {
+                "state_name": "2,0,W",
+                "key_input": 39
+            }
+        ]
+    },
+        "2,0,W": {
+        "bk_img": "imgs/20W.png",
+        "next_state": [
+            {
+                "state_name": "2,0,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "2,0,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "1,0,W",
+                "key_input": 37
+            },
+            {
+                "state_name": "2,0,W",
+                "key_input": 39
+            }
+        ]
+    },
+        "-2,-1,N": {
+        "bk_img": "imgs/-2-1N.png",
+        "next_state": [
+            {
+                "state_name": "-2,0,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "-2,-1,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "-2,-1,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "-2,-1,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "-2,-1,E": {
+        "bk_img": "imgs/-2-1E.png",
+        "next_state": [
+            {
+                "state_name": "-2,-1,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "-2,-1,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "-2,-1,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "-2,-1,S": {
+        "bk_img": "imgs/-2-1S.png",
+        "next_state": [
+            {
+                "state_name": "-2,-1,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "-2,-1,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "-2,-2,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "-2,-1,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "-2,-1,W": {
+        "bk_img": "imgs/-2-1W.png",
+        "next_state": [
+            {
+                "state_name": "-2,-1,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "-2,-1,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "-2,-1,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "-1,-1,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "-1,-1,N": {
+        "bk_img": "imgs/-1-1N.png",
+        "next_state": [
+            {
+                "state_name": "-1,-1,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "-1,-1,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "-1,-1,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "-1,-1,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "-1,-1,E": {
+        "bk_img": "imgs/-1-1E.png",
+        "next_state": [
+            {
+                "state_name": "-1,0,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "0,-1,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "-1,-2,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "-2,-1,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "-1,-1,S": {
+        "bk_img": "imgs/-1-1S.png",
+        "next_state": [
+            {
+                "state_name": "-1,0,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "0,-1,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "-1,-2,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "-2,-1,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "-1,-1,W": {
+        "bk_img": "imgs/-1-1W.png",
+        "next_state": [
+            {
+                "state_name": "-1,0,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "0,-1,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "-1,-2,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "-2,-1,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "0,-1,N": {
+        "bk_img": "imgs/0-1N.png",
+        "next_state": [
+            {
+                "state_name": "0,0,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "1,-1,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "0,-2,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "-1,-1,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "0,-1,E": {
+        "bk_img": "imgs/0-1E.png",
+        "next_state": [
+            {
+                "state_name": "0,0,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "1,-1,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "0,-2,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "-1,-1,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "0,-1,S": {
+        "bk_img": "imgs/0-1S.png",
+        "next_state": [
+            {
+                "state_name": "0,0,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "1,-1,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "0,-2,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "-1,-1,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "0,-1,W": {
+        "bk_img": "imgs/0-1W.png",
+        "next_state": [
+            {
+                "state_name": "0,0,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "1,-1,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "0,-2,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "-1,-1,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "1,-1,N": {
+        "bk_img": "imgs/1-1N.png",
+        "next_state": [
+            {
+                "state_name": "1,0,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "2,-1,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "1,-2,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "0,-1,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "1,-1,E": {
+        "bk_img": "imgs/1-1E.png",
+        "next_state": [
+            {
+                "state_name": "1,0,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "2,-1,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "1,-2,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "0,-1,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "1,-1,S": {
+        "bk_img": "imgs/1-1S.png",
+        "next_state": [
+            {
+                "state_name": "1,0,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "2,-1,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "1,-2,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "0,-1,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "1,-1,W": {
+        "bk_img": "imgs/1-1W.png",
+        "next_state": [
+            {
+                "state_name": "1,0,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "2,-1,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "1,-2,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "0,-1,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "2,-1,N": {
+        "bk_img": "imgs/2-1N.png",
+        "next_state": [
+            {
+                "state_name": "2,0,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "2,-2,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "1,-1,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "2,-1,E": {
+        "bk_img": "imgs/2-1E.png",
+        "next_state": [
+            {
+                "state_name": "2,0,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "2,-2,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "1,-1,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "2,-1,S": {
+        "bk_img": "imgs/2-1S.png",
+        "next_state": [
+            {
+                "state_name": "2,0,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "2,-2,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "1,-1,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "2,-1,W": {
+        "bk_img": "imgs/2-1W.png",
+        "next_state": [
+            {
+                "state_name": "2,0,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "2,-2,S",
+                "key_input": 40
+            },
+            {
+                "state_name": "1,-1,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "-2,-2,N": {
+        "bk_img": "imgs/-2-2N.png",
+        "next_state": [
+            {
+                "state_name": "-2,-1,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "-1,-2,E",
+                "key_input": 39
+            }
+        ]
+    },
+        "-2,-2,E": {
+        "bk_img": "imgs/-2-2E.png",
+        "next_state": [
+            {
+                "state_name": "-2,-1,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "-1,-2,E",
+                "key_input": 39
+            }
+        ]
+    },
+        "-2,-2,S": {
+        "bk_img": "imgs/-2-2S.png",
+        "next_state": [
+            {
+                "state_name": "-2,-1,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "-1,-2,E",
+                "key_input": 39
+            }
+        ]
+    },
+        "-2,-2,W": {
+        "bk_img": "imgs/-2-2W.png",
+        "next_state": [
+            {
+                "state_name": "-2,-1,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "-1,-2,E",
+                "key_input": 39
+            }
+        ]
+    },
+        "-1,-2,N": {
+        "bk_img": "imgs/-1-2N.png",
+        "next_state": [
+            {
+                "state_name": "-1,-1,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "0,-2,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "-2,-2,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "-1,-2,E": {
+        "bk_img": "imgs/-1-2E.png",
+        "next_state": [
+            {
+                "state_name": "-1,-1,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "0,-2,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "-2,-2,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "-1,-2,S": {
+        "bk_img": "imgs/-1-2S.png",
+        "next_state": [
+            {
+                "state_name": "-1,-1,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "0,-2,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "-2,-2,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "-1,-2,W": {
+        "bk_img": "imgs/-1-2W.png",
+        "next_state": [
+            {
+                "state_name": "-1,-1,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "0,-2,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "-2,-2,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "0,-2,N": {
+        "bk_img": "imgs/0-2N.png",
+        "next_state": [
+            {
+                "state_name": "0,-1,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "1,-2,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "-1,-2,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "0,-2,E": {
+        "bk_img": "imgs/0-2E.png",
+        "next_state": [
+            {
+                "state_name": "0,-1,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "1,-2,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "-1,-2,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "0,-2,S": {
+        "bk_img": "imgs/0-2S.png",
+        "next_state": [
+            {
+                "state_name": "0,-1,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "1,-2,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "-1,-2,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "0,-2,W": {
+        "bk_img": "imgs/0-2W.png",
+        "next_state": [
+            {
+                "state_name": "0,-1,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "1,-2,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "-1,-2,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "1,-2,N": {
+        "bk_img": "imgs/1-2N.png",
+        "next_state": [
+            {
+                "state_name": "1,-1,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "2,-2,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "0,-2,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "1,-2,E": {
+        "bk_img": "imgs/1-2E.png",
+        "next_state": [
+            {
+                "state_name": "1,-1,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "2,-2,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "0,-2,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "1,-2,S": {
+        "bk_img": "imgs/1-2S.png",
+        "next_state": [
+            {
+                "state_name": "1,-1,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "2,-2,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "0,-2,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "1,-2,W": {
+        "bk_img": "imgs/1-2W.png",
+        "next_state": [
+            {
+                "state_name": "1,-1,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "2,-2,E",
+                "key_input": 39
+            },
+            {
+                "state_name": "0,-2,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "2,-2,N": {
+        "bk_img": "imgs/2-2N.png",
+        "next_state": [
+            {
+                "state_name": "2,-1,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "1,-2,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "2,-2,E": {
+        "bk_img": "imgs/2-2E.png",
+        "next_state": [
+            {
+                "state_name": "2,-1,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "1,-2,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "2,-2,S": {
+        "bk_img": "imgs/2-2S.png",
+        "next_state": [
+            {
+                "state_name": "2,-1,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "1,-2,W",
+                "key_input": 37
+            }
+        ]
+    },
+        "2,-2,W": {
+        "bk_img": "imgs/2-2W.png",
+        "next_state": [
+            {
+                "state_name": "2,-1,N",
+                "key_input": 38
+            },
+            {
+                "state_name": "1,-2,W",
+                "key_input": 37
+            }
+        ]
+    },
+    "END1": {
+    "bk_img": "imgs/END1.png",
+    "next_state": [
+        {
+            "state_name": "END2",
+            "key_input": 40
+        }
+        ]
+    },
+    "END2": {
+    "bk_img": "imgs/END2.png",
+    "next_state": [
+        {
+            "state_name": "END2",
+            "key_input": 40
+        }
+        ]
+        }
+        
+    }
+}
+
